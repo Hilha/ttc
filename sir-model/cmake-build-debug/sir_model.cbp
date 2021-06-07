@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="sir_model"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/univali/sir-model/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/compilador c++/MinGW/bin/mingw32-make.exe -f &quot;D:/univali/sir-model/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/compilador c++/MinGW/bin/mingw32-make.exe -f &quot;D:/univali/sir-model/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/compilador c++/MinGW/bin/mingw32-make.exe -f &quot;D:/univali/sir-model/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/compilador c++/MinGW/bin/mingw32-make.exe -f &quot;D:/univali/sir-model/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sir_model">
+				<Option output="D:/univali/sir-model/cmake-build-debug/sir_model.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/univali/sir-model/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/univali/sir-model/src/graph"/>
+					<Add directory="D:/univali/sir-model/src/utils"/>
+					<Add directory="D:/compilador c++/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++"/>
+					<Add directory="D:/compilador c++/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32"/>
+					<Add directory="D:/compilador c++/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="D:/compilador c++/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="D:/compilador c++/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="D:/compilador c++/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/compilador c++/MinGW/bin/mingw32-make.exe -f &quot;D:/univali/sir-model/cmake-build-debug/Makefile&quot;  VERBOSE=1 sir_model"/>
+					<CompileFile command="D:/compilador c++/MinGW/bin/mingw32-make.exe -f &quot;D:/univali/sir-model/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/compilador c++/MinGW/bin/mingw32-make.exe -f &quot;D:/univali/sir-model/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/compilador c++/MinGW/bin/mingw32-make.exe -f &quot;D:/univali/sir-model/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sir_model/fast">
+				<Option output="D:/univali/sir-model/cmake-build-debug/sir_model.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/univali/sir-model/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/univali/sir-model/src/graph"/>
+					<Add directory="D:/univali/sir-model/src/utils"/>
+					<Add directory="D:/compilador c++/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++"/>
+					<Add directory="D:/compilador c++/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32"/>
+					<Add directory="D:/compilador c++/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="D:/compilador c++/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="D:/compilador c++/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="D:/compilador c++/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/compilador c++/MinGW/bin/mingw32-make.exe -f &quot;D:/univali/sir-model/cmake-build-debug/Makefile&quot;  VERBOSE=1 sir_model/fast"/>
+					<CompileFile command="D:/compilador c++/MinGW/bin/mingw32-make.exe -f &quot;D:/univali/sir-model/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/compilador c++/MinGW/bin/mingw32-make.exe -f &quot;D:/univali/sir-model/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/compilador c++/MinGW/bin/mingw32-make.exe -f &quot;D:/univali/sir-model/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/univali/sir-model/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/compilador c++/MinGW/bin/mingw32-make.exe -f &quot;D:/univali/sir-model/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/compilador c++/MinGW/bin/mingw32-make.exe -f &quot;D:/univali/sir-model/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/compilador c++/MinGW/bin/mingw32-make.exe -f &quot;D:/univali/sir-model/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/compilador c++/MinGW/bin/mingw32-make.exe -f &quot;D:/univali/sir-model/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/univali/sir-model/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/compilador c++/MinGW/bin/mingw32-make.exe -f &quot;D:/univali/sir-model/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/compilador c++/MinGW/bin/mingw32-make.exe -f &quot;D:/univali/sir-model/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/compilador c++/MinGW/bin/mingw32-make.exe -f &quot;D:/univali/sir-model/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/compilador c++/MinGW/bin/mingw32-make.exe -f &quot;D:/univali/sir-model/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/univali/sir-model/src/grafo_matriz.cpp">
+			<Option target="sir_model"/>
+		</Unit>
+		<Unit filename="D:/univali/sir-model/src/graph/aresta.h">
+			<Option target="sir_model"/>
+		</Unit>
+		<Unit filename="D:/univali/sir-model/src/graph/graph.cpp">
+			<Option target="sir_model"/>
+		</Unit>
+		<Unit filename="D:/univali/sir-model/src/graph/graph.h">
+			<Option target="sir_model"/>
+		</Unit>
+		<Unit filename="D:/univali/sir-model/src/graph/solucao.cpp">
+			<Option target="sir_model"/>
+		</Unit>
+		<Unit filename="D:/univali/sir-model/src/graph/solucao.h">
+			<Option target="sir_model"/>
+		</Unit>
+		<Unit filename="D:/univali/sir-model/src/graph/vertice.cpp">
+			<Option target="sir_model"/>
+		</Unit>
+		<Unit filename="D:/univali/sir-model/src/graph/vertice.h">
+			<Option target="sir_model"/>
+		</Unit>
+		<Unit filename="D:/univali/sir-model/src/heuristica/tabusearch.h">
+			<Option target="sir_model"/>
+		</Unit>
+		<Unit filename="D:/univali/sir-model/src/utils/utils.cpp">
+			<Option target="sir_model"/>
+		</Unit>
+		<Unit filename="D:/univali/sir-model/src/utils/utils.h">
+			<Option target="sir_model"/>
+		</Unit>
+		<Unit filename="D:/univali/sir-model/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

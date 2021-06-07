@@ -1,0 +1,3 @@
+D:/univali/sir-model/cmake-build-debug/CMakeFiles/sir_model.dir
+D:/univali/sir-model/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/univali/sir-model/cmake-build-debug/CMakeFiles/rebuild_cache.dir
